@@ -104,7 +104,8 @@ Baixar o repositorio atualizado (vai que alguem mexeu em algo):
 Colocar tudo na nuvem:
     git pull
 
-
+Voltar na linha do tempo:
+    git ch
 
 
 
