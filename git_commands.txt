@@ -94,6 +94,10 @@ Para criar uma branch nova nesse clone:
 Para adicionar arquivo e dar commit rapidao:
     git commit -am "Atualização de git_commands"
 
+Voltar para linha principal e combinar:
+    git checkout master
+    git merge teste
+
 
 
 
