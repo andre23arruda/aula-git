@@ -52,6 +52,8 @@ Voltar para branch feature/teste:
 
 Adicionar o arquivo novo no git:
     git add olaMundo_branch.py
+    git add .
+    // o comando acima adiciona tudo no git
     git commit -m "Arquivo adicionado na branch"
 
 Se voltar para master e dar ls para ver os arquivos, o novo não estará lá :O
@@ -76,8 +78,22 @@ Para criar um repositório no modo raiz:
     // vai aparecer uma janelinha do github pedindo usuario e senha. Só digitar e o repositorio ja está criado
 
 Para colocar upar branch no repositorio (esse é fácil)
-    git remote add origin https://github.com/danielvitalharpia/HarpiaHealthSolutionsMIP.git
+    git remote add origin https://github.com/andre23arruda/aula-git.git
     git push -u origin master
+
+Para baixar um repositorio:
+    git clone https://github.com/andre23arruda/aula-git.git
+
+Agora acessar onde fez o download do repositorio:
+    cd aula-git
+
+Para criar uma branch nova nesse clone:
+    git checkout -b teste
+    // isso é a mesma coisa que git branch e git checkout
+
+Para adicionar arquivo e dar commit rapidao:
+    git commit -am "Atualização de git_commands"
+
 
 
 
