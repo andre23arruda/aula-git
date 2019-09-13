@@ -104,8 +104,11 @@ Baixar o repositorio atualizado (vai que alguem mexeu em algo):
 Colocar tudo na nuvem:
     git pull
 
-Voltar na linha do tempo:
-    git ch
+
+Voltar na linha do tempo e recuperar um arquivo:
+    Da um git log primeiro
+    Copia o endereço
+    git checkout 7bd4bebafbc8f89dfdb3f9bb61d2fd71b7a27421 -- git_commands.txt
 
 
 
