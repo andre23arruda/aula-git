@@ -98,6 +98,9 @@ Voltar para linha principal e combinar:
     git checkout master
     git merge teste
 
+Baixar o repositorio atualizado (vai que alguem mexeu em algo):
+    git pull
+
 
 
 
