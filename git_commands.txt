@@ -101,6 +101,9 @@ Voltar para linha principal e combinar:
 Baixar o repositorio atualizado (vai que alguem mexeu em algo):
     git pull
 
+Colocar tudo na nuvem:
+    git pull
+
 
 
 
