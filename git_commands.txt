@@ -1,0 +1,90 @@
+Iniciar um repositório: 
+    Primeiro acessa a pasta que vai ser o repositório: cd pasta
+    git init
+
+Agora criar um arquivo aqui no VS Code:
+    Adiciona o arquivo no repositorio:
+        git add arquivo.py 
+        //(git add faz o git olhar para o arquivo de forma especial)
+    Cria um ponto na história:
+        git commit -m "Arquivo criado"
+        // -m significa mensagem
+
+Ver pontos na história do projeto:
+    git log
+
+Ver status de desenvolvimento:
+    git status
+
+Se modificar arquivo, dá um commit para avisar o que você mudou:
+    git commit -m "Arquivo atualizado"
+    
+Para ver commit específico:
+    git log
+    // pega o endereço do ponto da história EX: 9579dbcfc7408b8da6bb08a1d22d81d48e5860b0
+    git show 9579dbcfc7408b8da6bb08a1d22d81d48e5860b0
+    // Vai aparecer todas as informações desse commit
+
+Para ver ultimo commit:
+    git show
+
+Até aqui estávamos na linha do tempo principal
+Agora vamos criar uma ramificação:
+     git branch feature/teste
+
+Para mudar para essa branch:
+    git checkout feature/teste
+    git status 
+    // para ter certeza que mudou
+
+Criar um arquivo nessa branch
+Ver status da branch:
+    git branch
+
+Voltar para branch principal:
+    git checkout master
+
+Visualizar todas as branchs:
+    git branch
+
+Voltar para branch feature/teste:
+    git checkout feature/teste
+
+Adicionar o arquivo novo no git:
+    git add olaMundo_branch.py
+    git commit -m "Arquivo adicionado na branch"
+
+Se voltar para master e dar ls para ver os arquivos, o novo não estará lá :O
+
+Para adicionar as novas funcionalidades à master:
+    Voltar para master:
+        git checkout master
+    git merge feature/teste
+
+Para deletar a branch adicional:
+    git branch -D feature/teste
+    git branch
+    // só para ver as branchs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
