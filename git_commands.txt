@@ -66,6 +66,21 @@ Para deletar a branch adicional:
     git branch
     // só para ver as branchs
 
+GITHUB AGORA <3
+Para criar um repositório no modo raiz:
+    git init 
+    git add README.md
+    git commit -m "first commit"
+    git remote add origin https://github.com/andre23arruda/teste.git  (apenas um exemplo)
+    git push -u origin master
+    // vai aparecer uma janelinha do github pedindo usuario e senha. Só digitar e o repositorio ja está criado
+
+Para colocar upar branch no repositorio (esse é fácil)
+    git remote add origin https://github.com/danielvitalharpia/HarpiaHealthSolutionsMIP.git
+    git push -u origin master
+
+
+
 
 
 
